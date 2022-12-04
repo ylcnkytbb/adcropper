@@ -5,58 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adcropper Job</title>
-    <style>
-      body {
-        background-image: url("images/arkaplan.png");
-        background-color: #333;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      .wheel-1 {
-      }
-      .boy {
-        display: flex;
-        margin-left: 90px;
-        padding-top: 200px;
-      }
-      .wheel-l{
-        margin-left:50px;
-      }
-      .wheel-r{
-        margin-left:190px;
-      }
-      .baloons{
-        position: relative;
-        transition: all 1s ease-in-out;
-        margin-left: 300px;
-        margin-top: 50px;
-      }
-      .baloons:hover{
-        transform: translateY(300px);
-        animation-iteration-count: infinite;
-      }
-      .wheel-r{
-        transform: rotate(360deg);
-      }
-    </style>
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
+    <marquee behavior="" direction="right">
     <div class="green">
-        <div class="baloons">
+      
+        <div class="boy">
+          <img src="images/insan_govde.png" alt="" />
+          <div class="baloons">
             <img src="images/balonlar.png" alt="" />
           </div>
-      <div class="boy">
-        <img src="images/insan_govde.png" alt="" />
-      </div>
-      <div class="wheel">
-      <img class="wheel-l" src="images/tekerlek.png" alt="" />
-      <img class="wheel-r" src="images/tekerlek copy.png" alt="" />
-    </div>
+        </div>
+        <div class="wheel">
+          <img class="wheel-l" src="images/tekerlek.png" alt="" />
+          <img class="wheel-r" src="images/tekerlek copy.png" alt="" />
+        </div>
+
       <div class="shadow">
         <img src="images/golge.png" alt="" />
       </div>
-      
     </div>
+    <marquee/>
+
   </body>
 </html>
